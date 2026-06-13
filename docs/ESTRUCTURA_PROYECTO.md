@@ -7,7 +7,7 @@ Este documento describe la organización del proyecto `bigdata-lab` y la funció
 ## 1. Estructura general
 
 ```text
-bigdata-lab/
+spark-k8s-devops-lab/
 ├── Dockerfile
 ├── master-service.yaml
 ├── monitoring.yaml
