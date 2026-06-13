@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: spark-monitor-service
+  namespace: datastream-bigdata
+  labels:
+    app: spark-master
+spec:
+  ports:
+  - port: 8080
+    targetPort: 8080
+    name: metrics
+  selector:
+    app: spark-master

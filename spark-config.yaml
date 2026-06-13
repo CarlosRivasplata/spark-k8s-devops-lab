@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: spark-config
+  namespace: datastream-bigdata
+data:
+  SPARK_MASTER_HOST: "spark-master"
+  SPARK_WORKER_CORES: "2"
+  SPARK_WORKER_MEMORY: "1g"
